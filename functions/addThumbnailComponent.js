@@ -6,16 +6,16 @@ module.exports = {
     code: async d => {
         const data = d.util.aoiFunc(d);
 
-        let [url, description, spoiler] = data.inside.splits;
+        let [url, description, spoiler = "false"] = data.inside.splits;
         spoiler = spoiler === "true" ? true : false;
         url = url?.addBrackets();
 
         const thumbnail = new ThumbnailBuilder({
-            description: description ?? undefined,
+            description: description?.addBrackets() || undefined,
             media: {
                 url: url,
             },
-            spoiler: spoiler ?? false,
+            spoiler: spoiler,
         });
 
         data.result = JSON.stringify(thumbnail.toJSON());
