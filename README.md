@@ -142,3 +142,21 @@ $addSelectMenuComponent[type;customId;placeholder;minValue?;maxValue?;...values]
 ##### Options
 
 This is an exact replica of aoi.js' `$addSelectMenu` so, I'm not telling the params.
+
+<hr />
+
+- #### `$addSpacingComponent`
+
+##### Syntax
+
+```
+$addSpacingComponent[spacing?;divider?;id]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| spacing | Spacing value - large or small | false | small |
+| divider | Whether divider must be visible? true or false | false | false |
+| id | Components ID | false | No Value |
