@@ -150,7 +150,7 @@ This is an exact replica of aoi.js' `$addSelectMenu` so, I'm not telling the par
 ##### Syntax
 
 ```
-$addSpacingComponent[spacing?;divider?;id]
+$addSpacingComponent[spacing?;divider?;id?]
 ```
 
 ##### Options
