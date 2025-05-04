@@ -128,3 +128,13 @@ $addSectionComponent[...components]
 
 > [!NOTE]
 > This is to create a `Section` in the `Container`. Each Section should have at least one `TextDisplay` and at most one `Thumbnail` or `Button`. Both of these are essential as per API docs. So there should be **at least 2 components** inserted in this function.
+
+<hr />
+
+- #### `$addSelectMenuComponent`
+
+##### Syntax
+
+```
+$addSelectMenuComponent
+```
