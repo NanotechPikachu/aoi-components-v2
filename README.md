@@ -136,5 +136,9 @@ $addSectionComponent[...components]
 ##### Syntax
 
 ```
-$addSelectMenuComponent
+$addSelectMenuComponent[type;customId;placeholder;minValue?;maxValue?;...values]
 ```
+
+##### Options
+
+This is an exact replica of aoi.js' `$addSelectMenu` so, I'm not telling the params.
