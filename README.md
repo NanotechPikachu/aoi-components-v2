@@ -30,3 +30,22 @@ $addButtonComponent[label?;style;customId?;disabled?;emoji?;url?]
 | disabled | Is button Disabled? false or true | false | false |
 | emoji | Emoji inside button | false | No Value |
 | URL | URL if style of button is URL | true (if URL button) else false | No Value |
+
+
+#### `$addFileComponent`
+
+##### Syntax
+
+```
+$addFileComponent[url;spoiler?]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| url | URL attachment of file | true | No Value |
+| spoiler | Does the file need to be enclosed in spoiler? true or false | false | false |
+
+> [!NOTE]
+> Even I am not entirely sure how this works but yeah, at least as per the `discord.js` docs, the syntax and everything is right. So, don't blame me!
