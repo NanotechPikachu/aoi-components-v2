@@ -199,3 +199,24 @@ $addThumbnailComponent[url;description?;spoiler?]
 > [!NOTE]
 > This is only to be used under (inside) `Section` component. Everywhere else will trigger a Discord API Error.
 
+<hr />
+
+- #### `$containerBuilder`
+
+##### Syntax
+
+```
+$containerBuilder[color?;spoiler?;...components]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| color | Accent color. Put Hex code **without "#"** | false | No Value |
+| spoiler | Whether to be enclosed in spoiler? true or false | false | false |
+| components | Components inside the container | true | No Value |
+
+> [!NOTE]
+> This can be API JSON structure or contain the functions **available here!**
+
