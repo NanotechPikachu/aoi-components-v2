@@ -1,0 +1,16 @@
+{
+  "name": "aoi-components-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon bot.js"
+  },
+  "author": "NanotechPikachu",
+  "license": "MIT",
+  "description": "A package enabling discord components V2 in aoi.js!",
+  "dependencies": {
+    "discord-api-types": "^0.38.2",
+    "discord.js": "^14.19.2"
+  }
+}
