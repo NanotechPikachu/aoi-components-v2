@@ -7,7 +7,7 @@ module.exports = {
         const data = d.util.aoiFunc(d);
 
         /* url: string, description: string (optional), alt: string (optional), spoiler: boolean (optional) */
-        let [url, description, alt, spoiler] = data.inside.splits;
+        let [url, description, alt, spoiler = "false"] = data.inside.splits;
         spoiler = spoiler === "true" ? true : false;
 
         if (!url) return d.aoiError.fnError(d, "custom", {}, "URL is required for media item");
