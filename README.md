@@ -177,3 +177,25 @@ $addTextComponent[content;id?]
 | ----- | ----- | ----- | ----- |
 | content | Text Content | true | No Value |
 | id | Components ID | false | No Value |
+
+<hr />
+
+- #### `$addThumbnailComponent`
+
+##### Syntax
+
+```
+$addThumbnailComponent[url;description?;spoiler?]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| url | URL of thumbnail to be added | true | No Value |
+| description | Description of thumbnail | false | No Value |
+| spoiler | Whether to be enclosed in spoiler? true or false | false | false |
+
+> [!NOTE]
+> This is only to be used under (inside) `Section` component. Everywhere else will trigger a Discord API Error.
+
