@@ -160,3 +160,20 @@ $addSpacingComponent[spacing?;divider?;id?]
 | spacing | Spacing value - large or small | false | small |
 | divider | Whether divider must be visible? true or false | false | true |
 | id | Components ID | false | No Value |
+
+<hr />
+
+- #### `$addTextComponent`
+
+##### Syntax
+
+```
+$addTextComponent[content;id?]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| content | Text Content | true | No Value |
+| id | Components ID | false | No Value |
