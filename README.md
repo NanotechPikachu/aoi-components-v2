@@ -90,3 +90,41 @@ $addMediaItem[url;description?;alt?;spoiler?]
 | description | Media Description | false | No Value |
 | alt | Media Alt Text | false | No Value |
 | spoiler | Whether the media item must be enclosed in spoiler? true or false | false | false |
+
+<hr />
+
+- #### `$addRowComponent`
+
+##### Syntax
+
+```
+$addRowComponent[...components]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| components | Components seperated by ";" | true | No Value |
+
+> [!NOTE]
+> It's the `ActionRow` of API. As such, it can hold only components of type `Button` and `SelectMenu`.
+
+<hr />
+
+- #### `$addSectionComponent`
+
+##### Syntax
+
+```
+$addSectionComponent[...components]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| components | Components seperated by ";" | true | No Value |
+
+> [!NOTE]
+> This is to create a `Section` in the `Container`. Each Section should have at least one `TextDisplay` and at most one `Thumbnail` or `Button`. Both of these are essential as per API docs. So there should be **at least 2 components** inserted in this function.
