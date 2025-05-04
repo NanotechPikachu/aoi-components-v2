@@ -158,5 +158,5 @@ $addSpacingComponent[spacing?;divider?;id]
 | Option | Description | Required | Default |
 | ----- | ----- | ----- | ----- |
 | spacing | Spacing value - large or small | false | small |
-| divider | Whether divider must be visible? true or false | false | false |
+| divider | Whether divider must be visible? true or false | false | true |
 | id | Components ID | false | No Value |
