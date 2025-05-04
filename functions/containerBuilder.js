@@ -17,6 +17,8 @@ module.exports = {
         components.forEach(c => container.push(JSON.parse(c.addBrackets())));
         
         const contain = new ContainerBuilder({
+            accent_color: color || null,
+            spoiler: spoiler,
             components: container
         });
 
