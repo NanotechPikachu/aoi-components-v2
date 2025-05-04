@@ -220,3 +220,23 @@ $containerBuilder[color?;spoiler?;...components]
 > [!NOTE]
 > This can be API JSON structure or contain the functions **available here!**
 
+<hr />
+
+- #### `$sendComponent`
+
+##### Syntax
+
+```
+$sendComponent[...components]
+```
+
+##### Options
+
+| Option | Description | Required | Default |
+| ----- | ----- | ----- | ----- |
+| components | Components to be sent | true | No Value |
+
+> [!NOTE]
+> This is for **Components V2** only!
+
+
