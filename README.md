@@ -269,7 +269,7 @@ $sendComponent[...components]
 A simple one since I am too lazy lol. 
 
 ```
-$sendComponent[$containerBuilder[FF0000;false;$addSectionComponent[$addTextComponent[$username];$addThumbnailComponent[$useravatar]];$addSpacingComponent[small];$addRowComponent[$addButtonComponent[Hi;PRIMARY;yo;false]];$addSpacingComponent[large;false];$addMediaComponent[$addMediaItem[$useravatar]]]
+$sendComponent[$containerBuilder[FF0000;false;$addSectionComponent[$addTextComponent[$username];$addThumbnailComponent[$useravatar]];$addSpacingComponent[small];$addRowComponent[$addButtonComponent[Hi;PRIMARY;yo;false]];$addSpacingComponent[large;false];$addMediaComponent[$addMediaItem[$useravatar]]]]
 ```
 
 ![img](https://cdn.discordapp.com/attachments/1174173540216492083/1368780840380923994/Screenshot_20250505_081159_Discord.jpg?ex=681977ff&is=6818267f&hm=d11c96610a66ffdde8b26aca799ff7a23aaf8574ed7953e6ae2fd4f6bda958c9&)
