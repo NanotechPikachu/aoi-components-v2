@@ -10,6 +10,16 @@ This package add extra functions to aoi.js allowing users to use components V2 o
 >
 > Also all these functions here would use the **JSON structure of API** and hence it's possible to directly supply the JSON but beware that any error in JSON will end up with `Discord API Error` as error handling is left to them to ease my work. 
 
+### Installation 
+
+```js
+const { initializeV2 } = require("aoi-components-v2");
+
+const client = // AoiClient setup;
+
+initializeV2(client); // to add the custom functions here
+```
+
 ### Functions
 
 - #### `$addButtonComponent`
