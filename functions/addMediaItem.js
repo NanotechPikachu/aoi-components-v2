@@ -16,7 +16,7 @@ module.exports = {
             description: description ?? undefined,
             alt: alt ?? undefined,
             media: {
-                url: url,
+                url: url?.addBrackets()
             },
             spoiler: spoiler ?? false,
         });
