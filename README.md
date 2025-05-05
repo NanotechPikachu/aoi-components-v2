@@ -1,6 +1,13 @@
 ## AOI COMPONENTS V2
 > Bringing **Discord Components V2** into the world of aoi.js!
 
+### ToC
+
+- [Introduction](#Introduction)
+- [Installation](#Installation)
+- [Functions](#Functions)
+- [Example](#Example)
+
 ### Introduction 
 
 This package add extra functions to aoi.js allowing users to use components V2 of discord. 
