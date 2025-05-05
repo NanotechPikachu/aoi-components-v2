@@ -12,6 +12,14 @@ This package add extra functions to aoi.js allowing users to use components V2 o
 
 ### Installation 
 
+#### Install
+
+```
+npm i https://github.com/NanotechPikachu/aoi-components-v2
+```
+
+#### Index
+
 ```js
 const { initializeV2 } = require("aoi-components-v2");
 
